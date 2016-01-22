@@ -1,4 +1,5 @@
-FROM alpine:latest                                                               
+FROM alpine:latest
+MAINTAINER sudeep sudeep.parajuli254@gmail.com                                                               
 RUN apk --update add \                                                           
   php-fpm \                                                                      
   php-pdo \                                                                      
